@@ -27,3 +27,7 @@ try:
         print("Елемент з класом 'lp-wrapp' не знайдено.")
 finally:
     driver.quit()
+
+
+x=6236262
+print("huinja")
