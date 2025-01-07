@@ -30,4 +30,4 @@ finally:
 
 
 x=6236262
-print("huinja")
+print("hu")
