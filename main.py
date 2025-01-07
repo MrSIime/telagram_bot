@@ -24,7 +24,7 @@ try:
         else:
             print("Текстовий елемент <p> не знайдено.")
     else:
-        print("Елемент з класом 'lp-wrapp' не знайдено.")
+        print("Елемент з класом ")
 finally:
     driver.quit()
 
