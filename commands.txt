@@ -7,6 +7,11 @@ git commit -m "text" - коментування змін
 
 git add . - додання всіх файлів до реєстру
 
+git rm -r * - видалення всіх файлів з репозиторія
+git rm <шлях_до_файлу>
+
+git archive --format=zip --output=backup.zip HEAD - створення бекапу
+
 1. оновлення з репозиторія:
     команда git pull
 
