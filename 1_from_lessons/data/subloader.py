@@ -1,7 +1,7 @@
 import os
 
-from ujson import loads # pip install ujson
-import aiofiles # pip install aiofiles
+from ujson import loads
+import aiofiles
 
 
 async def get_json(filename: str) -> list:
