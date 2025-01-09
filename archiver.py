@@ -31,7 +31,7 @@ class LogArchiver:
             first_date = "unknown"
             last_date = "unknown"
 
-        log_archive_name = f"{first_date}{last_date}.log"
+        log_archive_name = f"database/logs/{first_date}{last_date}.log"
 
         with zipfile.ZipFile(self.archive_name, 'a') as archive:
             archive.write(self.log_file, log_archive_name)
